@@ -1,0 +1,57 @@
+/* -| First Layer |- */
+
+body, html {
+    /* Allows child containers to span the full width of the viewport */
+    margin: 0;
+    background-color: #C0C0C0;
+}
+
+/* ========================================================================== */
+                    /* DO NOT FORGET RESPONSIVE DESIGN */
+/* ========================================================================== */
+
+/* -| NAV BACKGROUND |- */
+
+header[class="main-nav"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #2B4562;
+    block-size: 80px;
+}
+
+/* -| NAV ICON |- */
+
+header[class="main-nav"] a[type="home-icon"] {
+    display: inherit;
+    align-items: inherit;
+}
+
+header[class="main-nav"] a[type="home-icon"] img {
+    block-size: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/* -| NAV MENU |- */
+
+header[class="main-nav"] nav[type="featured-pages"] {
+    display: inherit;
+    align-content: inherit;
+    justify-content: space-between;
+
+    inline-size: 500px;
+    margin-right: 50px;
+
+}
+
+
+
+
+
+/* ========================================================================== */
+                        /*  NAME: Jude Thaddeau Data
+            GITHUB: Zero-Luminance (https://github.com/Zero-Luminance)  */
+/* ========================================================================== */
