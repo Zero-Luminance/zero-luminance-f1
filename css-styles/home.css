@@ -1,0 +1,7 @@
+.hero {
+    background-image: url("../assets/images/home-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    block-size: 85vh;
+    inline-size: 100vw;
+}

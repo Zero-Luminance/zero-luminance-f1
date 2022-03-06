@@ -59,7 +59,7 @@ a {
 
 /* -| NAV WEB LINKS |- */
 .nav {
-    block-size: 40%;
+    block-size: 37%;
     inline-size: 100%;
     position: fixed;
     background-color: #2B4562;
@@ -167,7 +167,6 @@ a {
     align-items: center;
     justify-content: center;
     inline-size: 100%;
-    position: fixed;
     bottom: 0;
     color: #FBFAF2;
     font-family: "Oswald";
