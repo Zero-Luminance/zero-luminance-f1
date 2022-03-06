@@ -6,36 +6,54 @@
         <link rel="icon" href="assets/logo.svg">
         <title>Home - Jude Data</title>
         <!-- Other Meta Data -->
-
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Control Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSS Files -->
         <link rel="stylesheet" href="css-styles/navigation.css">
-
-        <!-- Control Viewport -->
-
     </head>
 
     <body>
         <!-- 1st NAVIGATION BAR (MAIN: nav inside header) -->
-        <header class="main-nav">
+        <header class="header">
 
-            <!-- Interactable Home Icon-->
-            <a type="home-icon" href="https://Zero-Luminance.github.io/">
-                <img src="assets/images/logo.svg" title="Home" alt="Home icon.">
+            <!-- Logo -->
+            <a href="https://Zero-Luminance.github.io/" class="logo" title="Home">
+                <img src="assets/images/logo.svg" alt="Home Icon">
             </a>
 
-            <!-- Main Navigation-->
-            <nav type="featured-pages">
-                <ul>
-                    <li><a href="about/">ABOUT</a></li>
-                    <li><a href="informative/"> INFORMATIVE</a></li>
-                    <li><a href="opinion/">OPINION</a></li>
-                    <li><a href="credits/">CREDITS</a></li>
+            <!-- Hamburger icon -->
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu">
+                <span class="hamb-line"></span>
+            </label>
+
+            <!-- Menu -->
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="https://Zero-Luminance.github.io/about/">ABOUT</a></li>
+                    <li><a href="https://Zero-Luminance.github.io/informative/">INFORMATIVE</a></li>
+                    <li><a href="https://Zero-Luminance.github.io/opinion/">OPINION</a></li>
+                    <li><a href="https://Zero-Luminance.github.io/credits/">CREDITS</a></li>
                 </ul>
             </nav>
         </header>
         
-        <!-- 2nd NAVIGATION BAR (SECONDARY: nav inside section)-->
+        <!-- Hero Image + Introduction -->
+        <main>
+            <img src="assets/images/home-hero-image.jpg" alt="Hero Image">
+            <!-- 2nd NAVIGATION BAR (SECONDARY: nav inside section)-->
 
+        </main>
+
+        <!-- Acknowledgements & Social Media  -->
+        <footer class="footer">
+            
+            <p><a href="https://iconscout.com/icons/twitter" target="_blank">Twitter Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a></p>
+            <a class="social-media" href="#">
+                <img src="assets/images/twitter-icon.svg" alt="Twitter">
+            </a>
+        </footer>
     </body>
 </html>
 <!--

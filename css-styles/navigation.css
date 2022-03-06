@@ -1,88 +1,185 @@
 /* FONT FAMILIES */
-
 @font-face {
     font-family: "Oswald";
     src: url("../assets/font-families/Oswald/Oswald-VariableFont_wght.ttf");
 }
 
+@font-face {
+    font-family: "Comfortaa";
+    src: url("../assets/font-families/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
 
 /* ========================================================================== */
 
-/* -| First Layer |- */
-
+/* -| Default Styles |- */
 body, html {
     /* Allows child containers to span the full width of the viewport */
     margin: 0;
     background-color: #C0C0C0;
+    block-size: 100vh;
+    font-family: "Comfortaa";
+    color: #131313;
 }
+
+a {
+    text-decoration: none;
+    color: #D8C89E;
+}
+
+/* ========================================================================== */
 
 /* -| NAV CONTAINER |- */
-
-header[class="main-nav"] {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header {
     background-color: #2B4562;
-    block-size: 80px;
-
-    /* Nav bar follows reader when scrolling */
     position: sticky;
-    inline-size: 100%;
     top: 0;
+    inline-size: 100%;
 }
 
-/* ========================================================================== */
-                    /* DO NOT FORGET RESPONSIVE DESIGN */
-/* ========================================================================== */
-
-/* -| NAV ICON |- */
-
-header[class="main-nav"] a[type="home-icon"] {
-    display: inherit;
-    align-items: inherit;
+.header .nav ul[class="menu"] {
+    list-style: none;
 }
 
-header[class="main-nav"] a[type="home-icon"] img {
-    block-size: 75px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-
-/* -| NAV WEB LINKS |- */
-
-header[class="main-nav"] nav[type="featured-pages"] {
-    margin-right: 50px;
-}
-
-header[class="main-nav"] nav[type="featured-pages"] ul {
-    display: flex;
-    align-content: center;
-}
-
-header[class="main-nav"] nav[type="featured-pages"] ul li {
-    display: inline;
-    border-left: 1px solid #131313;
-}
-
-header[class="main-nav"] nav[type="featured-pages"] ul li:last-child {
-    border-right: 1px solid #131313;
-}
-
-header[class="main-nav"] nav[type="featured-pages"] ul li a {
-    margin: 30px;
-    font-size: x-large;
+.header .nav ul[class="menu"] a {
     font-family: "Oswald";
     color: #FBFAF2;
-    padding-inline: 10px;
-    text-decoration: none;
-}
-        /* Makes the nav heading highlight when hovering */
-header[class="main-nav"] nav[type="featured-pages"] ul li a:hover {
-    background-color: #131313;
-    inline-size: 1em;
+    font-size: x-large;
 }
 
+/* -| NAV ICON |- */
+.logo {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.logo img {
+    block-size: 80px;
+    inline-size: 80px;
+}
+
+/* -| NAV WEB LINKS |- */
+.nav {
+    block-size: 40%;
+    inline-size: 100%;
+    position: fixed;
+    background-color: #2B4562;
+    overflow: hidden;
+    margin-right: 20px;
+    overflow: scroll;
+}
+
+.menu a{
+    display: block;
+    padding-block: 10px;
+    padding-inline: 30px;
+    color: "Oswald";
+    border-left: #131313 solid;
+}
+
+.menu a:hover{
+    background-color: #131313;
+}
+.nav{
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+/* -| HAMBURGER MENU ICON |- */
+.hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}/* Style label tag */
+
+.hamb-line {
+    background: #FBFAF2;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+} /* Style span tag */
+
+.hamb-line::before,
+.hamb-line::after{
+    background: #FBFAF2;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+} /* Hide checkbox */
+
+/* -| TOGGLE MENU |- */
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+/* RESPONSIVE DESIGN */
+@media (min-width: 730px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: #131313;
+
+    }
+    .hamb{
+        display: none;
+    }
+}
+
+/* ========================================================================== */
+
+/* DOCUMENT FOOTER */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inline-size: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #FBFAF2;
+    font-family: "Oswald";
+    font-size: large;
+    background-color: #2B4562;
+}
+
+.footer .social-media img {
+    block-size: 50px;
+    inline-size: 50px;
+    margin-inline: 30px;
+}
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
