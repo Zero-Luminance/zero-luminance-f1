@@ -11,19 +11,30 @@
 
 /* ========================================================================== */
 
-/* -| Default Styles |- */
+/* -| DEFAULT STYLES: STRUCTURE |- */
 body, html {
     /* Allows child containers to span the full width of the viewport */
     margin: 0;
-    background-color: #C0C0C0;
-    block-size: 100vh;
-    font-family: "Comfortaa";
-    color: #131313;
+    block-size: 100%;
 }
 
 a {
     text-decoration: none;
     color: #D8C89E;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box .content {
+    flex: 1 1 auto;
+}
+
+.box .footer {
+    flex: 0 1 100px;
 }
 
 /* ========================================================================== */
@@ -163,21 +174,27 @@ a {
 
 /* DOCUMENT FOOTER */
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     inline-size: 100%;
-    bottom: 0;
     color: #FBFAF2;
     font-family: "Oswald";
     font-size: large;
-    background-color: #2B4562;
+    background-color: #2B4562;   
+}
+
+.footer p {
+    display: inline;
+    inline-size: fit-content;
+    display: block;
+    margin: 14px auto 10px;
 }
 
 .footer .social-media img {
-    block-size: 50px;
-    inline-size: 50px;
-    margin-inline: 30px;
+    display: inline;
+    inline-size: 70px;
+    block-size: 70px;
+    position: absolute;
+    bottom: -70px;
+    right: 30px;    
 }
 
 /* ========================================================================== */
