@@ -1,11 +1,81 @@
+/* -| FONT FAMILIES |-*/
+@font-face {
+    font-family: "Lato";
+    src: url("../assets/font-families/Lato/Lato-Black.ttf");
+}
 
+@font-face {
+    font-family: "Comfortaa";
+    src: url("../assets/font-families/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+
+/* ========================================================================== */
+
+/* -| HERO IMAGE |- */
 .content {
     background-image: url("../assets/images/home-hero-image.jpg");
     background-size: cover;
     background-position: center;
     block-size: 85vh;
     inline-size: 100vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
 }
+
+/* ========================================================================== */
+
+/* -| FEATURED CONTENT: SECONDARY NAV |- */
+
+.featured {
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    /* VISIBILITY */
+    inline-size: 300px;
+    block-size: 450px;
+    background-color: #FBFAF2;
+    border-radius: 25px;
+}
+
+.container {
+
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+
+    /* VISIBILITY */
+    inline-size: 200px;
+    block-size: 150px;
+    background-color: #C0C0C0;
+}
+
+/* ========================================================================== */
+
+/* -| FEATURED CONTENT: SECONDARY NAV |- */
+.featured .container a {
+    text-decoration: none;
+    color: #131313;
+}
+
+.featured .container h2 {
+    text-align: center;
+    border-bottom: #131313 solid;
+    font-family: "Lato";
+}
+
+.featured .container p {
+    font-family: "Comfortaa";
+}
+
+/* ========================================================================== */
+
+/* RESPONSIVE DESIGN */
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data

@@ -4,11 +4,6 @@
     src: url("../assets/font-families/Oswald/Oswald-VariableFont_wght.ttf");
 }
 
-@font-face {
-    font-family: "Comfortaa";
-    src: url("../assets/font-families/Comfortaa/Comfortaa-VariableFont_wght.ttf");
-}
-
 /* ========================================================================== */
 
 /* -| DEFAULT STYLES: STRUCTURE |- */
@@ -18,7 +13,7 @@ body, html {
     block-size: 100%;
 }
 
-a {
+.header a, .footer a {
     text-decoration: none;
     color: #D8C89E;
 }
