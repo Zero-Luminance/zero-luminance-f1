@@ -52,6 +52,10 @@ body, html {
     font-size: x-large;
 }
 
+.header .nav ul[class="menu"] a:hover {
+    color: #D8C89E;
+}
+
 /* -| NAV ICON |- */
 .logo {
     display: inline-block;
@@ -61,6 +65,10 @@ body, html {
 .logo img {
     block-size: 80px;
     inline-size: 80px;
+}
+
+.logo img:hover {
+    content: url("../assets/images/logo-clicked.svg");
 }
 
 /* -| NAV WEB LINKS |- */
@@ -185,11 +193,11 @@ body, html {
 
 .footer .social-media img {
     display: inline;
-    inline-size: 70px;
-    block-size: 70px;
+    inline-size: 10vh;
+    block-size: 5vw;
     position: absolute;
-    bottom: -70px;
-    right: 30px;    
+    bottom: -68px;
+    right: 10px;    
 }
 
 /* ========================================================================== */
