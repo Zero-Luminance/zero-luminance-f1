@@ -11,66 +11,50 @@
 
 /* ========================================================================== */
 
-/* -| HERO IMAGE |- */
-.content {
+/* -| HERO IMAGE & HOMEPAGE INTRODUCTION |- */
+.content.introduction {
     background-image: url("../assets/images/home-hero-image.jpg");
     background-size: cover;
     background-position: center;
-    block-size: 85vh;
-    inline-size: 100vw;
+}
 
+/* ========================================================================== */
+
+/* -| FEATURED CONTENT |- */
+.featured {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: flex-end;
-}
+    justify-content: space-around;
+    background-color: #131313;
 
-/* ========================================================================== */
-
-/* -| FEATURED CONTENT: SECONDARY NAV |- */
-
-.featured {
-
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-
-    /* VISIBILITY */
-    inline-size: 300px;
-    block-size: 450px;
-    background-color: #FBFAF2;
-    border-radius: 25px;
 }
 
 .container {
-
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
+    
+    /* Visibility */
+    flex: 1;
     border-radius: 25px;
-
-    /* VISIBILITY */
-    inline-size: 200px;
-    block-size: 150px;
     background-color: #C0C0C0;
 }
 
-/* ========================================================================== */
-
-/* -| FEATURED CONTENT: SECONDARY NAV |- */
-.featured .container a {
+.container a {
     text-decoration: none;
+    text-align: center;
+
     color: #131313;
 }
 
-.featured .container h2 {
-    text-align: center;
-    border-bottom: #131313 solid;
+.container a h2 {
     font-family: "Lato";
+    color: #2B4562;
 }
 
-.featured .container p {
+.container a p {
     font-family: "Comfortaa";
+    color: #131313;
 }
 
 /* ========================================================================== */
