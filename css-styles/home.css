@@ -18,7 +18,7 @@
 
 /* -| HERO IMAGE & HOMEPAGE INTRODUCTION |- */
 .content {
-    background-image: url("../assets/media-icons/home-hero-image.jpg");
+    background-image: url("../assets/media-icons/home-hero-image-v1.jpg");
     background-size: cover;
     background-position: center;
 
@@ -80,7 +80,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(#131313, #FBFAF2);
+    background: linear-gradient(#6e742b, #FBFAF2);
 }
 
 .container {
@@ -114,6 +114,26 @@
     color: #131313;
 }
 
+/* ========================================================================== */
+
+/* -| RESPONSIVE DESIGN |- */
+
+/* Desktops With Low Height */
+@media (min-width: 768px) and (max-height: 578px) {
+    .featured {
+        background: linear-gradient(#565451, #FBFAF2);
+    }
+}
+
+/* Phones & Tablets */
+@media (max-width: 767px) {
+    .content{
+        background-image: url("../assets/media-icons/home-hero-image-v2.jpg");
+    }
+    .featured {
+        background: linear-gradient(#08171a, #FBFAF2);
+    }
+}
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
             GITHUB: Zero-Luminance (https://github.com/Zero-Luminance)  */
