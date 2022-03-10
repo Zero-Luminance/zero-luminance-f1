@@ -1,5 +1,10 @@
 /* -| FONT FAMILIES |-*/
 @font-face {
+    font-family: "Oswald";
+    src: url("../assets/font-families/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
     font-family: "Lato";
     src: url("../assets/font-families/Lato/Lato-Black.ttf");
 }
@@ -12,10 +17,59 @@
 /* ========================================================================== */
 
 /* -| HERO IMAGE & HOMEPAGE INTRODUCTION |- */
-.content.introduction {
+.content {
     background-image: url("../assets/images/home-hero-image.jpg");
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.introduction {
+    margin: 30px;
+    border-radius: 25px;
+    opacity: 0.8;
+    background: rgba(251, 250, 242, 0.8);
+    text-align: center;
+}
+
+.introduction h1 {
+    font-size:  xxx-large;
+    font-family: "Oswald";
+    color: #2B4562;
+}
+
+.introduction h2 {
+    font-size: xx-large;
+    font-family: "Lato";
+    padding-inline: 20px;
+}
+
+/* CSS Animation from: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations */
+.introduction {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+  
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 /* ========================================================================== */
@@ -27,7 +81,6 @@
     align-items: center;
     justify-content: space-around;
     background: linear-gradient(#131313, #FBFAF2);
-
 }
 
 .container {
@@ -60,9 +113,6 @@
     font-family: "Comfortaa";
     color: #131313;
 }
-/* ========================================================================== */
-
-/* RESPONSIVE DESIGN */
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data

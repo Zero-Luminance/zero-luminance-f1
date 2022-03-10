@@ -13,6 +13,10 @@ body, html {
     block-size: 100%;
 }
 
+.header {
+    z-index: 1;
+}
+
 .header a, .footer a {
     text-decoration: none;
     color: #D8C89E;
@@ -33,6 +37,12 @@ body, html {
 }
 
 /* ========================================================================== */
+
+/* NOTE: repsonsive navigation uses code from
+https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
+   
+   The nav bar was adjusted to fit font family, & decorated using hover 
+   techniques to indicate user intraction. */
 
 /* -| NAV CONTAINER |- */
 .header {
