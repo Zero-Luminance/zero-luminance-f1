@@ -68,7 +68,7 @@ body, html {
 }
 
 .logo img:hover {
-    content: url("../assets/images/logo-clicked.svg");
+    content: url("../assets/images/brand-logo-clicked.svg");
 }
 
 /* -| NAV WEB LINKS |- */
@@ -177,6 +177,11 @@ body, html {
 
 /* DOCUMENT FOOTER */
 .footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
     inline-size: 100%;
     color: #FBFAF2;
     font-family: "Oswald";
@@ -185,19 +190,35 @@ body, html {
 }
 
 .footer p {
-    display: inline;
-    inline-size: fit-content;
-    display: block;
-    margin: 14px auto 10px;
+    flex: 7;
+    margin-inline: 20px;
+    text-align: center;
 }
 
-.footer .social-media img {
-    display: inline;
-    inline-size: 10vh;
-    block-size: 5vw;
-    position: absolute;
-    bottom: -68px;
-    right: 10px;    
+.footer p a:hover {
+    border-radius: 5px;
+    background-color:#131313;
+}
+
+.footer .social-media {
+    flex: 1;
+    display: inherit;
+    justify-content: space-around;
+    margin-inline: 20px;
+}
+
+.footer .social-media a img {
+    inline-size: 60px;
+    block-size: 60px;
+    margin-inline: 10px;
+}
+
+.footer .social-media .twitter img:hover {
+    content: url("../assets/images/twitter-logo-clicked.svg");
+}
+
+.footer .social-media .github img:hover {
+    content: url("../assets/images/github-logo-clicked.svg");
 }
 
 /* ========================================================================== */

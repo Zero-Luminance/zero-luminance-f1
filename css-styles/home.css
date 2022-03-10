@@ -26,7 +26,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: #131313;
+    background: linear-gradient(#131313, #FBFAF2);
 
 }
 
@@ -40,6 +40,7 @@
 
 .container:hover {
     background-color: #D8C89E;
+    border-bottom: #131313 solid;
 }
 
 .container a {
