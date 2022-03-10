@@ -32,7 +32,7 @@
     margin: 30px;
     border-radius: 25px;
     opacity: 0.8;
-    background: rgba(251, 250, 242, 0.8);
+    background: linear-gradient(#D8C89E, #FBFAF2);
     text-align: center;
 }
 
