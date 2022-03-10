@@ -118,13 +118,6 @@
 
 /* -| RESPONSIVE DESIGN |- */
 
-/* Desktops With Low Height */
-@media (min-width: 768px) and (max-height: 578px) {
-    .featured {
-        background: linear-gradient(#565451, #FBFAF2);
-    }
-}
-
 /* Phones & Tablets */
 @media (max-width: 767px) {
     .content{
