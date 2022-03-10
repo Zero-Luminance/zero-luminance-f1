@@ -78,7 +78,7 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
 }
 
 .logo img:hover {
-    content: url("../assets/images/brand-logo-clicked.svg");
+    content: url("../assets/media-icons/brand-logo-clicked.svg");
 }
 
 /* -| NAV WEB LINKS |- */
@@ -224,11 +224,11 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
 }
 
 .footer .social-media .twitter img:hover {
-    content: url("../assets/images/twitter-logo-clicked.svg");
+    content: url("../assets/media-icons/twitter-logo-clicked.svg");
 }
 
 .footer .social-media .github img:hover {
-    content: url("../assets/images/github-logo-clicked.svg");
+    content: url("../assets/media-icons/github-logo-clicked.svg");
 }
 
 /* ========================================================================== */
