@@ -18,7 +18,7 @@
 
 /* -| HERO IMAGE & HOMEPAGE INTRODUCTION |- */
 .content {
-    background-image: url("../assets/media-icons/home-hero-image-v1.jpg");
+    background-image: url("../assets/home-about-credits-images/home-hero-image-v1.jpg");
     background-size: cover;
     background-position: center;
 
@@ -121,7 +121,7 @@
 /* Phones & Tablets */
 @media (max-width: 767px) {
     .content{
-        background-image: url("../assets/media-icons/home-hero-image-v2.jpg");
+        background-image: url("../assets/home-about-credits-images/home-hero-image-v2.jpg");
     }
     .featured {
         background: linear-gradient(#08171a, #FBFAF2);
