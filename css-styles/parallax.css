@@ -1,4 +1,17 @@
+.parallax {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+/* RESPONSIVE DESIGN */
+@media (max-width: 640px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+} /* Turn OFF parallax effect with phones & tables */
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
