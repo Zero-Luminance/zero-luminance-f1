@@ -144,16 +144,18 @@ p {
 /* ========================================================================== */
 
 /* -| HISTORY OVERVIEW |- */
-iframe.inspiration {
-    inline-size: 60vw;
-    block-size: 45vw;
-    margin: 30px;
+
+iframe.inspiration, .ausgp2012 {
+    inline-size: 40vw;
+    block-size: 30vw;
+    margin: 20px;
+    border-radius: 25px;
 }
 
 .ausgp2012 {
-    inline-size: 60vw;
-    block-size: 45vw;
-    margin: 40px;
+    border: 5px #131313 dotted;
+    padding: 5px;
+    background-color: #FBFAF2;
 }
 
 .ausgp2012:hover {
@@ -162,7 +164,7 @@ iframe.inspiration {
 
 figcaption {
     font-family: "Lato";
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
 }
 
