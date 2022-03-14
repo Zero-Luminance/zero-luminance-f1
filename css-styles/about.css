@@ -5,21 +5,25 @@
     src: url("../assets/font-families/Lato/Lato-Light.ttf");
 }
 
+p {
+    font-family: "Comfortaa";
+    font-size: 28px;
+}
+
 /* ========================================================================== */
 
 /* -| INTRODUCTION |- */
 
-.parallax.introduction {
+.parallax.about {
     background-image: url("../assets/home-about-credits-images/about-intro-background.jpg");
-    min-block-size: 60%;
-
+    min-block-size: 80%;
     display: flex;
-    flex-flow: column wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.parallax.introduction h1 {
+.parallax.about h1 {
     padding: 20px;
     font-family: "Oswald";
     font-size: 58px;
@@ -48,8 +52,7 @@
 
 .profile {
     flex: 1;
-    inline-size: 350px;
-    inline-size: 350px;
+    inline-size: fit-content;
     margin-right: 25px;
     margin-bottom: 25px;
     padding: 15px;
@@ -108,16 +111,55 @@
     flex: 3;
 }
 
-.introduction p {
-    font-family: "Comfortaa";
-    font-size: 28px;
-}
-
 /* Responsive Design To Make written content fit better*/
 @media (max-width: 900px) {
     .container {
         flex-flow: column wrap;
     }
+}
+
+/* ========================================================================== */
+
+/* -| F1 HISTORY |- */
+
+.parallax.history {
+    background-image: url("../assets/home-about-credits-images/ausgp-2012-p3.JPG");
+    min-block-size: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax.history h2 {
+    padding: 20px;
+    background-color: #FBFAF2;
+    font-family: "Lato";
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* ========================================================================== */
+
+/* -| HISTORY OVERVIEW |- */
+iframe.inspiration {
+    inline-size: 400px;
+    block-size: 300px;
+    margin: 30px;
+}
+
+.ausgp2012 {
+    inline-size: 400px;
+    block-size: 300px;
+    margin: 10px;
+}
+
+figcaption {
+    font-family: "Lato-Light";
+    font-size: large;
+    text-align: center;
 }
 
 /* ========================================================================== */
