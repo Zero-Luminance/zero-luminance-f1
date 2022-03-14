@@ -145,21 +145,37 @@ p {
 
 /* -| HISTORY OVERVIEW |- */
 iframe.inspiration {
-    inline-size: 400px;
-    block-size: 300px;
+    inline-size: 60vw;
+    block-size: 45vw;
     margin: 30px;
 }
 
 .ausgp2012 {
-    inline-size: 400px;
-    block-size: 300px;
-    margin: 10px;
+    inline-size: 60vw;
+    block-size: 45vw;
+    margin: 40px;
+}
+
+.ausgp2012:hover {
+    content: url("../assets/home-about-credits-images/ausgp-2012-p2.JPG");
 }
 
 figcaption {
-    font-family: "Lato-Light";
-    font-size: large;
+    font-family: "Lato";
+    font-size: xx-large;
     text-align: center;
+}
+
+p a {
+    font-family: "Lato";
+    color: #0090FF;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #FBFAF2;
+    background-color: #131313;
+    border-radius: 5px;
 }
 
 /* ========================================================================== */
