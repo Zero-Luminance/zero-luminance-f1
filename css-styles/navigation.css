@@ -220,10 +220,6 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
     content: url("../assets/media-icons/twitter-logo-clicked.svg");
 }
 
-.footer .social-media .github img:hover {
-    content: url("../assets/media-icons/github-logo-clicked.svg");
-}
-
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
             GITHUB: Zero-Luminance (https://github.com/Zero-Luminance)  */

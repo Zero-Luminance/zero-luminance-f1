@@ -1,5 +1,124 @@
+/* -| FONT FAMILIES |- */
 
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../assets/font-families/Lato/Lato-Light.ttf");
+}
 
+/* ========================================================================== */
+
+/* -| INTRODUCTION |- */
+
+.parallax.introduction {
+    background-image: url("../assets/home-about-credits-images/about-intro-background.jpg");
+    min-block-size: 60%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax.introduction h1 {
+    padding: 20px;
+    font-family: "Oswald";
+    font-size: 58px;
+    background: #FBFAF2;
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
+
+/* ========================================================================== */
+
+/* -| CONTAINER: for text |- */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    background: #C0C0C0;
+    padding: 25px;
+}
+
+/* ========================================================================== */
+
+/* -| USER PROFILE |- */
+
+.profile {
+    flex: 1;
+    inline-size: 350px;
+    inline-size: 350px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    float: left;
+    background-color: #D8C89E;
+    text-align: center;
+    border: 5px #131313 dotted;
+}
+
+.profile:hover {
+    border-top: none;
+    border-bottom: 8px #131313 solid;
+    border-right: 8px #131313 solid;
+    border-left: none;
+}
+
+.hero-portrait {
+    inline-size: 220px;
+    block-size: 220px;
+    align-self: center;
+    justify-self: center;
+}
+
+.profile h2 {
+    font-family: "Oswald";
+    font-size: xx-large;
+}
+
+.profile h3 {
+    font-family: "Lato-Light";
+    font-size: x-large;
+}
+
+.work-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.work-media a, .linkedin, .github {
+    inline-size: 100px;
+    block-size: 100px;
+    margin: 10px;
+}
+
+.work-media a .linkedin:hover {
+    content: url("../assets/media-icons/linkedin-icon-clicked.svg");
+}
+
+.work-media a .github:hover {
+    content: url("../assets/media-icons/github-icon-clicked.svg");
+}
+
+.introduction {
+    flex: 3;
+}
+
+.introduction p {
+    font-family: "Comfortaa";
+    font-size: 28px;
+}
+
+/* Responsive Design To Make written content fit better*/
+@media (max-width: 900px) {
+    .container {
+        flex-flow: column wrap;
+    }
+}
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data

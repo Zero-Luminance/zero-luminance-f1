@@ -20,9 +20,10 @@
 }
 
 .introduction h1 {
-    font-size: xxx-large;
+    font-size: 58px;
     font-family: "Oswald";
     color: #0090FF;
+    letter-spacing: 8px;
 }
 
 .introduction h2 {
