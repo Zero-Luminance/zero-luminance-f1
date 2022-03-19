@@ -27,7 +27,7 @@ p {
     padding: 20px;
     font-family: "Oswald";
     font-size: 58px;
-    background: #FBFAF2;
+    background: linear-gradient(#FBFAF2, #D8C89E);
     border-radius: 10px;
     letter-spacing: 10px;
 }
@@ -41,8 +41,7 @@ p {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-
-    background: #C0C0C0;
+    background: #FBFAF2;
     padding: 25px;
 }
 
@@ -58,7 +57,7 @@ p {
     padding: 15px;
     border-radius: 25px;
     float: left;
-    background-color: #D8C89E;
+    background-color: #c0c0c0;
     text-align: center;
     border: 5px #131313 dotted;
 }
@@ -132,9 +131,10 @@ p {
 }
 
 .parallax.history h2 {
+    color: #FBFAF2;
     padding: 20px;
-    background-color: #FBFAF2;
-    font-family: "Lato";
+    background: #131313;
+    font-family: "Oswald";
     font-size: 48px;
     letter-spacing: 5px;
     text-align: center;
@@ -146,26 +146,26 @@ p {
 /* -| HISTORY OVERVIEW |- */
 
 iframe.inspiration, .ausgp2012 {
-    inline-size: 40vw;
-    block-size: 30vw;
+    inline-size: 60vmin;
+    block-size: 40vmin;
     margin: 20px;
+    padding: 10px;
     border-radius: 25px;
-}
-
-.ausgp2012 {
-    border: 5px #131313 dotted;
-    padding: 5px;
-    background-color: #FBFAF2;
+    border: 5px #131313 ridge;
+    background-color: #c0c0c0;
 }
 
 .ausgp2012:hover {
     content: url("../assets/home-about-credits-images/ausgp-2012-p2.JPG");
 }
 
+figure {
+    text-align: center;
+}
+
 figcaption {
     font-family: "Lato";
     font-size: x-large;
-    text-align: center;
 }
 
 p a {
@@ -175,7 +175,7 @@ p a {
 }
 
 p a:hover {
-    color: #FBFAF2;
+    color: #D8C89E;
     background-color: #131313;
     border-radius: 5px;
 }

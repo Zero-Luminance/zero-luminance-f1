@@ -1,0 +1,33 @@
+
+/* -| ARTICLE TYPE DESCRIPTION |- */
+
+
+/* ========================================================================== */
+
+/* -| CONTAINER: for written bodies |- */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background: #FBFAF2;
+}
+
+/* ========================================================================== */
+
+/* -| ARTICLE SHOWCASE |- */
+
+.article-container {
+    display: flex;
+    flex-flow: row wrap;
+    border: #131313 solid;
+    background-color: #c0c0c0;
+}
+
+
+
+/* ========================================================================== */
+                        /*  NAME: Jude Thaddeau Data
+            GITHUB: Zero-Luminance (https://github.com/Zero-Luminance)  */
+/* ========================================================================== */

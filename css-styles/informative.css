@@ -1,5 +1,23 @@
 
+/* -| INTRODUCTION |- */
 
+.parallax.informative {
+    background-image: url("../assets/informative-article-images/informative-background.jpg");
+    min-block-size: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax.informative h1 {
+    padding: 20px;
+    font-family: "Oswald";
+    font-size: 58px;
+    background: linear-gradient(#FBFAF2, #D8C89E);
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data

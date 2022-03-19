@@ -15,6 +15,16 @@
 }
 
 /* ========================================================================== */
+
+/* -| DROP CAP FOR FIRST LETTER |-*/
+.dropcap {
+    font-weight: bold;
+    float: left;
+    font-size: 70px;
+    padding-right: 8px;
+}
+
+/* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
             GITHUB: Zero-Luminance (https://github.com/Zero-Luminance)  */
 /* ========================================================================== */
