@@ -1,6 +1,46 @@
 
-/* -| ARTICLE TYPE DESCRIPTION |- */
+/* -| FONT SIZES & STYLES |- */
+a.article-container {
+    text-decoration: none;
+}
 
+.article-meta h2, .article-meta p {
+    padding: 5px;
+    margin: 10px;
+}
+
+.article-meta h2 {
+    color: #0090FF;
+    font-family: "Lato";
+    font-size: 4.5vmin;
+    border-bottom: #131313 solid;
+}
+
+.article-meta p {
+    color: #131313;
+    font-size: 2.5vmin;
+    font-family: "Comfortaa";
+}
+
+@media (max-width: 580px) {
+    .article-meta h2 {
+        font-size: 3.5vmin;
+    }
+
+    .article-meta p {
+        font-size: 2.5vmin;
+    }
+}
+
+@media (max-width: 350px) {
+    .article-meta h2 {
+        font-size: 3vmin;
+    }
+
+    .article-meta p {
+        font-size: 2vmin;
+    }
+}
 
 /* ========================================================================== */
 
@@ -11,7 +51,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    background: #FBFAF2;
+    background: #C0C0C0;
 }
 
 /* ========================================================================== */
@@ -19,13 +59,27 @@
 /* -| ARTICLE SHOWCASE |- */
 
 .article-container {
+    margin: 10px;
     display: flex;
-    flex-flow: row wrap;
-    border: #131313 solid;
-    background-color: #c0c0c0;
+    background-color: #FBFAF2;
+    border-radius: 0px 25px 25px 0px;
 }
 
+.article-container:hover {
+    border-right: 5px #131313 ridge;
+    border-bottom: 5px #131313 ridge;
+}
 
+.article-container img {
+    inline-size: 40vmin;
+    block-size: 30vmin;
+}
+
+.article-container .article-meta {
+    inline-size: 50vmin;
+    block-size: 30vmin;
+    text-align: center;
+}
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data

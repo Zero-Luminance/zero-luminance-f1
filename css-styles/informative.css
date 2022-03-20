@@ -13,7 +13,7 @@
 .parallax.informative h1 {
     padding: 20px;
     font-family: "Oswald";
-    font-size: 58px;
+    font-size: 10vmin;
     background: linear-gradient(#FBFAF2, #D8C89E);
     border-radius: 10px;
     letter-spacing: 10px;

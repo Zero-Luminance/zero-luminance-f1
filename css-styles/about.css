@@ -57,7 +57,7 @@ p {
     padding: 15px;
     border-radius: 25px;
     float: left;
-    background-color: #c0c0c0;
+    background-color: #C0C0C0;
     text-align: center;
     border: 5px #131313 dotted;
 }
@@ -70,8 +70,8 @@ p {
 }
 
 .hero-portrait {
-    inline-size: 220px;
-    block-size: 220px;
+    inline-size: 30vmin;
+    block-size: 30vmin;
     align-self: center;
     justify-self: center;
 }
@@ -146,7 +146,7 @@ p {
 /* -| HISTORY OVERVIEW |- */
 
 iframe.inspiration, .ausgp2012 {
-    inline-size: 60vmin;
+    inline-size: 55vmin;
     block-size: 40vmin;
     margin: 20px;
     padding: 10px;
