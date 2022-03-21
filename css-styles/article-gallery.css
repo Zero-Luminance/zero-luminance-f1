@@ -22,6 +22,12 @@ a.article-container {
     font-family: "Comfortaa";
 }
 
+.article-type p {
+    color: #FBFAF2;
+    font-size: 4vmin;
+    font-family: "Comfortaa";
+}
+
 @media (max-width: 580px) {
     .article-meta h2 {
         font-size: 3.5vmin;
@@ -44,9 +50,20 @@ a.article-container {
 
 /* ========================================================================== */
 
+/* -| PAGE DESCRIPTION |- */
+
+.article-type {
+    padding: 20px;
+    background: #131313;
+    text-align: center;
+}
+
+/* ========================================================================== */
+
 /* -| CONTAINER: for written bodies |- */
 
 .container {
+    padding: 10px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -61,18 +78,20 @@ a.article-container {
 .article-container {
     margin: 10px;
     display: flex;
-    background-color: #FBFAF2;
+    background: #FBFAF2;
     border-radius: 0px 25px 25px 0px;
 }
 
 .article-container:hover {
     border-right: 5px #131313 ridge;
     border-bottom: 5px #131313 ridge;
+    background: #D8C89E;
 }
 
 .article-container img {
     inline-size: 40vmin;
     block-size: 30vmin;
+    border-left: 5px #131313 ridge;
 }
 
 .article-container .article-meta {
