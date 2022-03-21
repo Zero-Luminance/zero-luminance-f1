@@ -1,4 +1,44 @@
 
+/* -| FONT SIZES & STYLES |- */
+.article-type p {
+    color: #131313;
+    font-family: "Comfortaa";
+    font-size: 4vmin;
+}
+
+/* ========================================================================== */
+
+/* -| INTRODUCTION |- */
+
+.parallax.opinion {
+    background-image: url("../assets/home-about-credits-images/credits-intro-background.jpg");
+    min-block-size: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax.opinion h1 {
+    color: #FBFAF2;
+    padding: 20px;
+    font-family: "Oswald";
+    font-size: 8vmin;
+    background: #131313;
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
+
+/* ========================================================================== */
+
+/* -| PAGE DESCRIPTION |- */
+
+.article-type {
+    padding: 20px;
+    background: #FBFAF2;
+    text-align: center;
+}
+
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
