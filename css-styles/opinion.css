@@ -1,4 +1,27 @@
 
+/* -| INTRODUCTION |- */
+
+.parallax.opinion {
+    background-image: url("../assets/opinion-article-images/opinion-background.jpg");
+    min-block-size: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.parallax.opinion h1 {
+    padding: 20px;
+    font-family: "Oswald";
+    font-size: 8vmin;
+    background: linear-gradient(#FBFAF2, #D8C89E);
+    border-radius: 10px;
+    letter-spacing: 10px;
+}
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
