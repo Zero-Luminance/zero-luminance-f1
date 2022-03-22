@@ -74,6 +74,8 @@ p {
     block-size: 30vmin;
     align-self: center;
     justify-self: center;
+    border: #131313 ridge;
+    border-radius: 50%;
 }
 
 .profile h2 {
