@@ -1,9 +1,4 @@
-/* -| FONT FAMILIES |- */
-
-@font-face {
-    font-family: "Lato-Light";
-    src: url("../assets/font-families/Lato/Lato-Light.ttf");
-}
+/* -| FONT SIZES |- */
 
 p {
     font-family: "Comfortaa";

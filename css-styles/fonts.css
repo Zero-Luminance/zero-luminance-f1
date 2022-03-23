@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: "Lato-Light";
+    src: url("../assets/font-families/Lato/Lato-Light.ttf");
+}
+
+@font-face {
     font-family: "Comfortaa";
     src: url("../assets/font-families/Comfortaa/Comfortaa-VariableFont_wght.ttf");
 }

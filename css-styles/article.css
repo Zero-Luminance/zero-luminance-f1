@@ -1,0 +1,32 @@
+/* -| ARTICLE INTRODUCTION |- */
+
+.parallax.thumbnail {
+    min-block-size: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax.parallax.thumbnail h1 {
+    padding: 20px;
+    color: #FBFAF2;
+    font-family: "Oswald";
+    font-size: 8vmin;
+    text-align: center;
+    background: #131313;
+    border-radius: 10px;
+}
+
+/* ========================================================================== */
+
+/* -| ARTICLE TEXT |- */
+
+/* ========================================================================== */
+
+/* -| IMAGES, TABLES, IFRAMES |- */
+
+/* ========================================================================== */
+                        /*  NAME: Jude Thaddeau Data
+            GITHUB: Zero-Luminance (https://github.com/Zero-Luminance)  */
+/* ========================================================================== */
