@@ -15,6 +15,11 @@
 }
 
 @font-face {
+    font-family: "Lato-BoldItalic";
+    src: url("../assets/font-families/Lato/Lato-BoldItalic.ttf");
+}
+
+@font-face {
     font-family: "Comfortaa";
     src: url("../assets/font-families/Comfortaa/Comfortaa-VariableFont_wght.ttf");
 }

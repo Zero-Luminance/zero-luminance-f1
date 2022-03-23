@@ -5,6 +5,10 @@ p {
     font-size: 28px;
 }
 
+span.bold { 
+    font-family: "Lato-BoldItalic";
+}
+
 /* ========================================================================== */
 
 /* -| INTRODUCTION |- */
