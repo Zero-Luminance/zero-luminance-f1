@@ -5,8 +5,11 @@ p {
     font-size: 28px;
 }
 
-span.bold { 
-    font-family: "Lato-BoldItalic";
+.dropcap {
+    font-weight: bold;
+    float: left;
+    font-size: 70px;
+    padding-right: 8px;
 }
 
 /* ========================================================================== */

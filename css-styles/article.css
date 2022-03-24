@@ -1,7 +1,7 @@
 /* -| ARTICLE INTRODUCTION |- */
 
 .parallax.thumbnail {
-    min-block-size: 60%;
+    min-block-size: 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -21,6 +21,44 @@
 /* ========================================================================== */
 
 /* -| ARTICLE TEXT |- */
+.article-text {
+    padding-inline: 6vmin;
+    background-color: #FBFAF2;
+}
+
+.article-text section {
+    margin: 6vmin;
+    padding: 4vmin;
+    background-color: #FBFAF2;
+    border-radius: 25px;
+}
+
+.article-text p, li {
+    color: #131313;
+    font-family: "Comfortaa";
+    font-size: 2vw;
+    line-height: 1.4;
+}
+
+/* Applies Dropcaps Effect */
+.subhead::first-letter {
+    font-weight: bold;
+    float: left;
+    font-size: 4vw;
+    padding-right: 8px;
+}
+
+.article-text h2 {
+    font-family: "Lato";
+    font-size: 3vw;
+    text-align: center;
+}
+
+.article-text a {
+    color: #0090FF;
+    font-family: "Lato-BoldItalic";
+    text-decoration: none;
+}
 
 /* ========================================================================== */
 
