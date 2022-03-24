@@ -22,21 +22,20 @@
 
 /* -| ARTICLE TEXT |- */
 .article-text {
-    padding-inline: 6vmin;
+    padding-inline: 20px;
     background-color: #FBFAF2;
 }
 
 .article-text section {
-    margin: 6vmin;
-    padding: 4vmin;
+    margin: 30px;
+    padding: 25px;
     background-color: #FBFAF2;
-    border-radius: 25px;
 }
 
 .article-text p, li {
     color: #131313;
     font-family: "Comfortaa";
-    font-size: 2vw;
+    font-size: 20px;
     line-height: 1.4;
 }
 
@@ -44,13 +43,13 @@
 .subhead::first-letter {
     font-weight: bold;
     float: left;
-    font-size: 4vw;
+    font-size: 40px;
     padding-right: 8px;
 }
 
 .article-text h2 {
     font-family: "Lato";
-    font-size: 3vw;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -60,9 +59,45 @@
     text-decoration: none;
 }
 
+.article-text a:hover {
+    background-color: #D8C89E;
+    border-radius: 5px;
+}
+
 /* ========================================================================== */
 
 /* -| IMAGES, TABLES, IFRAMES |- */
+.article-text figure {
+    max-inline-size: 600px;
+    margin-bottom: 50px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-text figcaption {
+    margin: 10px;
+    color: #2B4562;
+    text-align: center;
+    font-family: "Lato-BoldItalic";
+    font-size: 2vmax;
+}
+
+.article-text iframe, .article-text img {
+    border: #131313 ridge;
+}
+
+.article-text img {
+    max-block-size: 600px;
+}
+
+.article-text iframe {
+    inline-size: 55vmin;
+    block-size: 40vmin;
+    margin-inline: auto;
+}
+
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
