@@ -1,7 +1,7 @@
 /* -| ARTICLE INTRODUCTION |- */
 
 .parallax.thumbnail {
-    min-block-size: 70%;
+    min-block-size: 75%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -16,6 +16,16 @@
     text-align: center;
     background: #131313;
     border-radius: 10px;
+}
+
+/* ========================================================================== */
+
+/* -| ARTICLE METADATA |- */
+.article-meta-data {
+    font-family: "Oswald";
+    font-size: 25px;
+    background-color: #C0C0C0;
+    text-align: center;
 }
 
 /* ========================================================================== */
