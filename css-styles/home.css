@@ -1,14 +1,15 @@
 
 /* -| HERO IMAGE & HOMEPAGE INTRODUCTION |- */
 .content {
+    min-block-size: 65%;
     background-image: url("../assets/home-about-credits-images/home-hero-image-v1.jpg");
     background-size: cover;
     background-position: center;
-
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    overflow-x: scroll;
 }
 
 .introduction {
