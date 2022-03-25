@@ -68,7 +68,9 @@
     text-decoration: none;
 }
 
-.article-text p a:hover {
+.article-text p a:hover,
+.article-text li a:hover,
+.article-text figcaption a:hover {
     background-color: #D8C89E;
     border-radius: 5px;
 }
