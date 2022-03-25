@@ -1,5 +1,4 @@
 /* -| ARTICLE INTRODUCTION |- */
-
 .parallax.thumbnail {
     min-block-size: 75%;
     display: flex;
@@ -76,11 +75,18 @@
 
 /* ========================================================================== */
 
-/* -| IMAGES, TABLES, IFRAMES |- */
-.article-text figure {
-    max-inline-size: 600px;
+/* -| NON-TEXT POSITIONING |- */
+.center {
     margin-bottom: 50px;
-    margin-inline: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* ========================================================================== */
+
+/* -| FIGURES, CAPTIONS, IMAGES & IFRAMES |- */
+.article-text figure, .article-text .custom-thumbnail {
+    max-inline-size: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,12 +100,9 @@
     font-size: 2vmax;
 }
 
-.article-text iframe, .article-text img {
-    border: #131313 ridge;
-}
-
 .article-text img {
     max-block-size: 600px;
+    border: #131313 ridge;
 }
 
 .article-text iframe {
@@ -107,6 +110,10 @@
     block-size: 40vmin;
     margin-inline: auto;
 }
+
+/* ========================================================================== */
+
+/* -| TABLES |- */
 
 
 /* ========================================================================== */
