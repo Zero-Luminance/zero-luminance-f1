@@ -104,14 +104,9 @@
     font-size: 2vmax;
 }
 
-.article-text .custom-thumbnail, 
-.article-text img{
-    border-radius: 25px;
-}
-
 .article-text img {
-    max-block-size: 600px;
-    border: #131313 ridge;
+    border: 1px #131313 ridge;
+    border-radius: 24px;
 }
 
 .article-text iframe {
