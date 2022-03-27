@@ -20,16 +20,20 @@
     text-align: center;
 }
 
-.introduction h1 {
+.introduction h1 { 
+    margin: 5%;
+    padding: 10px;
     font-size: 58px;
-    font-family: "Oswald";
+    font-family: "Oswald-ExtraLight";
     color: #0090FF;
+    letter-spacing: 8px;
+    border-bottom: 2px #2B4562 solid;
 }
 
 .introduction h2 {
-    font-size: 38px;
+    font-size: 30px;
     font-family: "Lato-Light";
-    padding-inline: 20px;
+    margin-inline: 30px;
 }
 
 /* ========================================================================== */

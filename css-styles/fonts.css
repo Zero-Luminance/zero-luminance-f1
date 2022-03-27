@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: "Oswald-ExtraLight";
+    src: url("../assets/font-families/Oswald/static/Oswald-ExtraLight.ttf");
+}
+
+@font-face {
     font-family: "Lato";
     src: url("../assets/font-families/Lato/Lato-Black.ttf");
 }
