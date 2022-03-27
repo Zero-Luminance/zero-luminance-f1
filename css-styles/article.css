@@ -105,13 +105,7 @@
     font-size: 2vmax;
 }
 
-.article-text .custom-thumbnail, 
-.article-text img{
-    border-radius: 25px;
-}
-
 .article-text img {
-    max-block-size: 600px;
     border: #131313 ridge;
 }
 
