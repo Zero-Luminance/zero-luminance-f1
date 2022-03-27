@@ -90,7 +90,6 @@
 .article-text figure,
 .article-text .custom-thumbnail {
     max-inline-size: 600px;
-    block-size: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,6 +117,11 @@
     inline-size: 55vmin;
     block-size: 40vmin;
     margin-inline: auto;
+}
+
+.article-text .custom-thumbnail:hover {
+    border-right: 5px #131313 ridge;
+    border-bottom: 5px #131313 ridge;
 }
 
 /* ========================================================================== */
