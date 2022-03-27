@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.parallax.parallax.thumbnail h1 {
+.parallax.thumbnail h1 {
     padding: 20px;
     color: #FBFAF2;
     font-family: "Oswald";
@@ -89,12 +89,17 @@
 /* ========================================================================== */
 
 /* -| FIGURES, CAPTIONS, IMAGES & IFRAMES |- */
-.article-text figure,
-.article-text .custom-thumbnail {
+.article-text figure {
     max-inline-size: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.article-text figcaption,
+.article-text img,
+.article-text iframe {
+    inline-size: 100%;
 }
 
 .article-text figcaption {
@@ -106,12 +111,10 @@
 }
 
 .article-text img {
-    border: #131313 ridge;
+    border: 1px #131313 ridge;
 }
 
 .article-text iframe {
-    inline-size: 55vmin;
-    block-size: 40vmin;
     margin-inline: auto;
 }
 
