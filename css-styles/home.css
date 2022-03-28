@@ -21,7 +21,7 @@
 }
 
 .introduction h1 { 
-    margin: 5%;
+    margin-inline: 10px;
     padding: 10px;
     font-size: 58px;
     font-family: "Oswald-ExtraLight";
