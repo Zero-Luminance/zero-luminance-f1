@@ -16,22 +16,29 @@ p {
 
 /* -| INTRODUCTION |- */
 
-.parallax.about {
-    background-image: url("../assets/home-about-credits-images/about-intro-background.jpg");
-    min-block-size: 80%;
+.parallax.header {
+    min-block-size: 60%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.parallax.about h1 {
+.parallax.topic h1, .parallax.topic h2 {
     padding: 20px;
+    color: #FBFAF2;
     font-family: "Oswald";
-    font-size: 58px;
-    background: linear-gradient(#FBFAF2, #D8C89E);
+    background: #131313;
     border-radius: 10px;
     letter-spacing: 10px;
+}
+
+.parallax.topic h1 {
+    font-size: 58px;
+}
+
+.parallax.topic h2 {
+    font-size: 48px;
 }
 
 /* ========================================================================== */
@@ -119,30 +126,6 @@ p {
     .container {
         flex-flow: column wrap;
     }
-}
-
-/* ========================================================================== */
-
-/* -| F1 HISTORY |- */
-
-.parallax.history {
-    background-image: url("../assets/home-about-credits-images/ausgp-2012-p3.JPG");
-    min-block-size: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.parallax.history h2 {
-    color: #FBFAF2;
-    padding: 20px;
-    background: #131313;
-    font-family: "Oswald";
-    font-size: 48px;
-    letter-spacing: 5px;
-    text-align: center;
-    border-radius: 10px;
 }
 
 /* ========================================================================== */
