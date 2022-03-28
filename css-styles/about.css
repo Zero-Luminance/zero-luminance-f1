@@ -16,7 +16,7 @@ p {
 
 /* -| INTRODUCTION |- */
 
-.parallax.header {
+.parallax.topic {
     min-block-size: 60%;
     display: flex;
     flex-wrap: wrap;
