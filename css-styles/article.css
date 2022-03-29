@@ -121,6 +121,10 @@
 /* ========================================================================== */
 
 /* -| TABLES |- */
+.responsive-table {
+    overflow: auto; 
+}
+
 table, th, td {
     border: 1px solid;
     border-collapse: collapse;
@@ -133,11 +137,15 @@ th, td {
 }
 
 th {
-    font-family: "Lato-";
+    font-family: "Lato-BoldItalic";
 }
 
 td {
     font-family: "Comfortaa";
+}
+
+.article-text th img {
+    border: none;
 }
 
 /* ========================================================================== */
