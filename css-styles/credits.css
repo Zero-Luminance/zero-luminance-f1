@@ -1,13 +1,4 @@
 
-/* -| FONT SIZES & STYLES |- */
-.article-type p {
-    color: #131313;
-    font-family: "Comfortaa";
-    font-size: 4vmin;
-}
-
-/* ========================================================================== */
-
 /* -| INTRODUCTION |- */
 
 .parallax.opinion {
@@ -31,17 +22,67 @@
 
 /* ========================================================================== */
 
-/* -| PAGE DESCRIPTION |- */
+/* -| PAGE & HEADER DESCRIPTIONS |- */
 
-.article-type {
+.page-description {
     padding: 20px;
     background: #FBFAF2;
     text-align: center;
+
+    color: #131313;
+    font-family: "Comfortaa";
+    font-size: 4vmin;
+}
+
+.page-description a {
+    font-family: "Lato";
+    color: #0090FF;
+    text-decoration: none;
+}
+
+.page-description a:hover {
+    color: #D8C89E;
+    background-color: #131313;
+    border-radius: 5px;
+}
+
+.article-source {
+    padding: 10px;
+    background: #131313;
+    text-align: center;
+
+    color: #0090FF;
+    font-family: "Lato-BoldItalic";
+    font-size: 4vmin;
 }
 
 /* ========================================================================== */
 
 /* -| IMAGE GALLERY |- */
+.image-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #C0C0C0;
+}
+
+.image-reference {
+    inline-size: 20vw;
+    block-size: 20vw;
+    margin: 20px;
+    border: 1px #131313 solid;
+    background-color: #FBFAF2;
+}
+
+.image-reference:hover {
+    box-shadow: 10px 10px #131313;
+}
+
+.image-reference img {
+    inline-size: 100%;
+    block-size: 100%;
+}
 
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
