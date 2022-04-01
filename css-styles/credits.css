@@ -25,10 +25,8 @@
 /* -| PAGE & HEADER DESCRIPTIONS |- */
 
 .page-description {
-    padding: 20px;
+    padding: 50px;
     background: #FBFAF2;
-    text-align: center;
-
     color: #131313;
     font-family: "Comfortaa";
     font-size: 4vmin;
