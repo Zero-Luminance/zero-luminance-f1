@@ -69,13 +69,13 @@ p {
     float: left;
     background-color: #C0C0C0;
     text-align: center;
-    
     box-shadow: 5px 5px #131313;
 }
 
 .profile:hover {
     box-shadow: none;
     border: 2px #131313 solid;
+    background-color: #D8C89E;
 }
 
 .hero-portrait {
@@ -146,6 +146,7 @@ iframe.inspiration, .ausgp2012 {
 .ausgp2012:hover {
     content: url("../assets/home-about-credits-images/ausgp-2012-p2.JPG");
     box-shadow: none;
+    border: 2px #131313 solid;
 }
 
 figure {

@@ -81,18 +81,18 @@ a.article-container {
     display: flex;
     background: #FBFAF2;
     border-radius: 0px 25px 25px 0px;
+    box-shadow: 5px 5px #131313;
 }
 
 .article-container:hover {
-    border-right: 5px #131313 ridge;
-    border-bottom: 5px #131313 ridge;
+    border: 2px #131313 solid;
     background: #D8C89E;
+    box-shadow: none;
 }
 
 .article-container img {
     inline-size: 40vmin;
     block-size: 30vmin;
-    border-left: 5px #131313 ridge;
 }
 
 .article-container .article-meta {
