@@ -1,7 +1,7 @@
 
 /* -| HERO IMAGE & HOMEPAGE INTRODUCTION |- */
 .content {
-    min-block-size: 65%;
+    min-block-size: 50%;
     background-image: url("../assets/home-about-credits-images/home-hero-image-v1.jpg");
     background-size: cover;
     background-position: center;
@@ -22,6 +22,7 @@
 
 .introduction h1 { 
     margin-inline: 10px;
+    margin-block: 20px;
     padding: 10px;
     font-size: 58px;
     font-family: "Oswald-ExtraLight";
@@ -87,10 +88,12 @@
 @media (max-width: 768px) {
     .content{
         background-image: url("../assets/home-about-credits-images/home-hero-image-v2.jpg");
+        justify-content: center;
     }
     .featured {
         background: linear-gradient(#08171a, #FBFAF2);
     }
+
 }
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
