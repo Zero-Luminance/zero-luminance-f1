@@ -1,6 +1,6 @@
 # Formula 1 Article Website
 
-## Contents
+## Contents:
 1) [Description](#description)
 2) [Purpose & Technologies](#purpose--technologies)
 3) [Features](#features)
