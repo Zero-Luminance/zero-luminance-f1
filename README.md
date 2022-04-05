@@ -16,8 +16,10 @@
 
 This project is a Formula 1 fan website capable of uploading opinion & informative articles about the sport. Although ***incomplete***, the final product of this website should be able to allow users to inferface with the website via comments for each article, & the ability to sign up for notifications.
 
+![Current home page of the website](assets/readme-media/homepage.png)
+
 ## Purpose & Technologies:
-This website serves as my ***first public project*** in software development & is aimed to provide an environment where I can continally come back to so as to implement new web development skills or technologies I have learned. Technologies currently used include:
+This website serves as my ***first public project*** in software development & is aimed to provide an environment where I can continally come back to & implement new web development skills or technologies I have learned. Technologies currently used include:
 - HTML (Hypertext Markup Language)
 - CSS (Cascading Style Sheets)
 
