@@ -1,15 +1,15 @@
 # Formula 1 Article Website
 
 ## Contents
-1) [Description](#description:)
-2) [Purpose & Technologies](#purpose--technologies:)
+1) [Description](#description)
+2) [Purpose & Technologies](#purpose--technologies)
 3) [Features](#features)
 4) [Limitations](#limitations)
 5) [Bugs](#bugs)
 6) [Future Plans](#future-plans)
 7) [Project Installation & Use](#project-installation--use)
 8) [Resources](#resources)
-9) [Contributor(s)](#contributors) |
+9) [Contributor(s)](#contributors)
 
 
 ## Description:
