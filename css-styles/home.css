@@ -9,7 +9,6 @@
     flex-flow: column wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    overflow-x: scroll;
 }
 
 .introduction {
@@ -24,7 +23,7 @@
     margin-inline: 10px;
     margin-block: 20px;
     padding: 10px;
-    font-size: 58px;
+    font-size: 10vmin;
     font-family: "Oswald-ExtraLight";
     color: #0090FF;
     letter-spacing: 8px;
@@ -32,7 +31,7 @@
 }
 
 .introduction h2 {
-    font-size: 30px;
+    font-size: 5vmin;
     font-family: "Lato-Light";
     margin-inline: 30px;
 }
