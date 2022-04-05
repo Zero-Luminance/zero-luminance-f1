@@ -9,6 +9,7 @@
     flex-flow: column wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    overflow: auto;
 }
 
 .introduction {
