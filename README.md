@@ -28,9 +28,8 @@ This website serves as my ***first public project*** in software development & i
 ## Features:
 - Webpages: Home, About, Informative, Opinion & Credits
 - Links to social media
-- Respinsive design
 
-![Demo gif of website opinion article](assets/readme-media/article-showcase.gif)
+![Demo gif of viewing a website opinion article](assets/readme-media/article-showcase.gif)
 
 ## Limitations:
 - The addition or modification of content is very ***manual***:
