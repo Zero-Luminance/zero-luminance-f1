@@ -14,7 +14,7 @@
 ## Description:
 [Formula 1](https://en.wikipedia.org/wiki/Formula_One) is the highest class of single-seater motorsport where teams compete for the FIA Formula 1 Constructors & Drivers Championships. 
 
-This project is a Formula 1 fan website capable of uploading opinion & informative articles about the sport. Although ***incomplete***, the final product of this website should be able to allow users to inferface with the website via comments for each article, & the ability to sign up for notifications.
+This project is a Formula 1 fan website capable of uploading opinion & informative articles about the sport. Although ***incomplete***, the final product of this website should be able to allow users to interface with the website via comments for each article, & the ability to sign up for notifications.
 
 ![Demo gif of website home page](assets/readme-media/home-page-showcase.gif)
 
@@ -32,9 +32,9 @@ This website serves as my ***first public project*** in software development & i
 ![Demo gif of website opinion article](assets/readme-media/article-showcase.gif)
 
 ## Limitations:
-- The addition or modification of content is very manual:
-    - Text from article drafts must be directly & structured to a HTML file
-    - Images used in articles & ***'Credits'*** must be manually on their respective HTML document
+- The addition or modification of content is very ***manual***:
+    - Text from article drafts must be ***directly*** transferred to a HTML file
+    - Images used in articles & ***'Credits'*** must be manually added to their respective HTML document
 - Website will benefit from ***'Search'*** & ***'Filter'*** features to query specifc articles to reduce user scrolling
 - Lacks SEO when querying on Google, Firefox, Safari, etc.
 - Each article could use a ***'Comments'*** section where readers can give input
@@ -61,7 +61,7 @@ This is a compilation of the resources I have, & plan to use in the future in or
 - [Mozilla Web Docs](https://developer.mozilla.org/en-US/docs/Learn)
 - [The Odin Project](https://www.theodinproject.com/)
 - [Full Stack Web Development Course](https://fullstackopen.com/en/)
-- [Atlassian Git Version Control Docs]()
+- [Atlassian Git Version Control Docs](https://www.atlassian.com/git)
 - [VS Code Docs](https://code.visualstudio.com/docs)
 
 ## Contributor(s):
