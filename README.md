@@ -43,7 +43,8 @@ This website serves as my ***first public project*** in software development & i
 ## Bugs:
 - Navigation bar stops becoming visible after scrolling down a certain amount
 - CSS queries need to be refactored to remove redundancies & bad practices
-- Homepage hero image fails to appear when viewing in ***'Desktop site'*** on mobile devices 
+- Homepage hero image fails to appear when viewing in ***'Desktop site'*** on mobile devices
+- Massive white chunck of empty space on the right hand side of the website when using windows
 
 ## Future Plans:
 Overtime I intend to acquire the skillset of a full-stack software engineer. This will entail me to learn technologies such as Javascript, NodeJS, a relational or cloud database such as SQL or MongoDB. These aforementioned skills will allow be to turn this static website into a fully dynamic CRUD web application. When this is possible work will be done on a separate git branch that will undergo testing before being made the ***'main'*** branch.
