@@ -16,16 +16,20 @@
 
 This project is a Formula 1 fan website capable of uploading opinion & informative articles about the sport. Although ***incomplete***, the final product of this website should be able to allow users to inferface with the website via comments for each article, & the ability to sign up for notifications.
 
-![Demo video of website](assets/readme-media/website-showcase.mp4)
+![Demo gif of website home page](assets/readme-media/home-page-showcase.gif)
 
 ## Purpose & Technologies:
 This website serves as my ***first public project*** in software development & is aimed to provide an environment where I can continally come back to & implement new web development skills or technologies I have learned. Technologies currently used include:
 - HTML (Hypertext Markup Language)
 - CSS (Cascading Style Sheets)
 
+![Demo gif of implementing CSS responsive design](assets/readme-media/responsive-design.gif)
+
 ## Features:
 - Webpages: Home, About, Informative, Opinion & Credits
 - Links to social media
+
+![Demo gif of website opinion article](assets/readme-media/article-showcase.gif)
 
 ## Limitations:
 - The addition or modification of content is very manual:
