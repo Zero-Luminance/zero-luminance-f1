@@ -2,9 +2,10 @@
 /* -| DEFAULT STYLES: STRUCTURE |- */
 body, html {
     /* Allows child containers to span the full width of the viewport */
-    margin: 0;
     block-size: 100%;
     inline-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
