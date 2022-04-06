@@ -22,6 +22,7 @@ body, html {
     display: flex;
     flex-flow: column;
     height: 100%;
+    clear: both;
 }
 
 .box .content {
