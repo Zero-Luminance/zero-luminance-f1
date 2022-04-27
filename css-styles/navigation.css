@@ -59,10 +59,6 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
     font-size: x-large;
 }
 
-.header .nav ul[class="menu"] a:hover {
-    color: #D8C89E;
-}
-
 /* -| NAV ICON |- */
 .logo {
     display: inline-block;
@@ -72,10 +68,6 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
 .logo img {
     block-size: 80px;
     inline-size: 80px;
-}
-
-.logo img:hover {
-    content: url("../assets/media-icons/brand-logo-clicked.svg");
 }
 
 /* -| NAV WEB LINKS |- */
@@ -97,9 +89,6 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
     border-left: #131313 solid;
 }
 
-.menu a:hover{
-    background-color: #131313;
-}
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
@@ -170,11 +159,14 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
     .menu li{
         float: left;
     }
-    .menu a:hover{
-        background-color: transparent;
-        color: #131313;
-
+    /* Only hover over devices using mouses */
+    @media (hover:hover) {
+        .menu a:hover{
+            background-color: transparent;
+            color: #131313;
+        }
     }
+
     .hamb{
         display: none;
     }
@@ -201,11 +193,6 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
     text-align: center;
 }
 
-.footer p a:hover {
-    border-radius: 5px;
-    background-color:#131313;
-}
-
 .footer .social-media {
     flex: 1;
     display: inherit;
@@ -219,8 +206,31 @@ https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/
     margin-inline: 10px;
 }
 
-.footer .social-media .twitter img:hover {
-    content: url("../assets/media-icons/twitter-logo-clicked.svg");
+/* ========================================================================== */
+
+/* Only hover over devices using mouses */
+@media (hover:hover) {
+
+    .header .nav ul[class="menu"] a:hover {
+        color: #D8C89E;
+    }
+
+    .logo img:hover {
+        content: url("../assets/media-icons/brand-logo-clicked.svg");
+    }
+
+    .menu a:hover{
+        background-color: #131313;
+    }
+
+    .footer p a:hover {
+        border-radius: 5px;
+        background-color:#131313;
+    }
+
+    .footer .social-media .twitter img:hover {
+        content: url("../assets/media-icons/twitter-logo-clicked.svg");
+    }
 }
 
 /* ========================================================================== */

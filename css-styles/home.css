@@ -57,11 +57,6 @@
     border-bottom: 5px #131313 solid;
 }
 
-.container:hover {
-    background-color: #D8C89E;
-    border: none;
-}
-
 .container a {
     text-decoration: none;
     text-align: center;
@@ -93,8 +88,16 @@
     .featured {
         background: linear-gradient(#08171a, #FBFAF2);
     }
-
 }
+
+/* Only hover over devices using mouses */
+@media (hover:hover) {
+    .container:hover {
+        background-color: #D8C89E;
+        border: none;
+    }
+}
+
 /* ========================================================================== */
                         /*  NAME: Jude Thaddeau Data
             GITHUB: Zero-Luminance (https://github.com/Zero-Luminance)  */

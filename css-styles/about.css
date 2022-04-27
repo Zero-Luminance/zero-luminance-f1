@@ -72,12 +72,6 @@ p {
     box-shadow: 5px 5px #131313;
 }
 
-.profile:hover {
-    box-shadow: none;
-    border: 2px #131313 solid;
-    background-color: #D8C89E;
-}
-
 .hero-portrait {
     inline-size: 30vmin;
     block-size: 30vmin;
@@ -109,14 +103,6 @@ p {
     margin: 10px;
 }
 
-.work-media a .linkedin:hover {
-    content: url("../assets/media-icons/linkedin-icon-clicked.svg");
-}
-
-.work-media a .github:hover {
-    content: url("../assets/media-icons/github-icon-clicked.svg");
-}
-
 .introduction {
     flex: 3;
 }
@@ -143,12 +129,6 @@ iframe.inspiration, .ausgp2012 {
     box-shadow: 5px 5px #131313;
 }
 
-.ausgp2012:hover {
-    content: url("../assets/home-about-credits-images/ausgp-2012-p2.JPG");
-    box-shadow: none;
-    border: 2px #131313 solid;
-}
-
 figure {
     text-align: center;
 }
@@ -165,10 +145,36 @@ p a {
     text-decoration: none;
 }
 
-p a:hover {
-    color: #D8C89E;
-    background-color: #131313;
-    border-radius: 5px;
+/* ========================================================================== */
+
+/* Only hover over devices using mouses */
+@media (hover:hover) {
+
+    .profile:hover {
+        box-shadow: none;
+        border: 2px #131313 solid;
+        background-color: #D8C89E;
+    }
+
+    .work-media a .linkedin:hover {
+        content: url("../assets/media-icons/linkedin-icon-clicked.svg");
+    }
+    
+    .work-media a .github:hover {
+        content: url("../assets/media-icons/github-icon-clicked.svg");
+    }
+
+    .ausgp2012:hover {
+        content: url("../assets/home-about-credits-images/ausgp-2012-p2.JPG");
+        box-shadow: none;
+        border: 2px #131313 solid;
+    }
+
+    p a:hover {
+        color: #D8C89E;
+        background-color: #131313;
+        border-radius: 5px;
+    }
 }
 
 /* ========================================================================== */

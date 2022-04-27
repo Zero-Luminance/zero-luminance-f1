@@ -38,12 +38,6 @@
     text-decoration: none;
 }
 
-.page-description a:hover {
-    color: #D8C89E;
-    background-color: #131313;
-    border-radius: 5px;
-}
-
 .article-source {
     padding: 10px;
     background: #131313;
@@ -73,13 +67,25 @@
     background-color: #FBFAF2;
 }
 
-.image-reference:hover {
-    box-shadow: 10px 10px #131313;
-}
-
 .image-reference img {
     inline-size: 100%;
     block-size: 100%;
+}
+
+/* ========================================================================== */
+
+/* Only hover over devices using mouses */
+@media (hover:hover) {
+
+    .page-description a:hover {
+        color: #D8C89E;
+        background-color: #131313;
+        border-radius: 5px;
+    }
+
+    .image-reference:hover {
+        box-shadow: 10px 10px #131313;
+    }
 }
 
 /* ========================================================================== */

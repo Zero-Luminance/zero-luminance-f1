@@ -70,13 +70,6 @@
     text-decoration: none;
 }
 
-.article-text p a:hover,
-.article-text li a:hover,
-.article-text figcaption a:hover {
-    background-color: #D8C89E;
-    border-radius: 5px;
-}
-
 /* ========================================================================== */
 
 /* -| NON-TEXT POSITIONING |- */
@@ -146,6 +139,18 @@ td {
 
 .article-text th img {
     border: none;
+}
+
+/* ========================================================================== */
+
+/* Only hover over devices using mouses */
+@media (hover:hover) {
+    .article-text p a:hover,
+    .article-text li a:hover,
+    .article-text figcaption a:hover {
+        background-color: #D8C89E;
+        border-radius: 5px;
+    }       
 }
 
 /* ========================================================================== */
