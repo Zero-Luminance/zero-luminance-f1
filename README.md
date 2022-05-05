@@ -62,6 +62,3 @@ This is a compilation of the resources I have, & plan to use in the future in or
 - [Full Stack Web Development Course](https://fullstackopen.com/en/)
 - [Atlassian Git Version Control Docs](https://www.atlassian.com/git)
 - [VS Code Docs](https://code.visualstudio.com/docs)
-
-## Contributor(s):
-- Jude Thaddeau Data (a.k.a [Zero-Luminance](https://github.com/Zero-Luminance))
